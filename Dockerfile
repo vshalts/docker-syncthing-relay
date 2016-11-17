@@ -21,4 +21,6 @@ EXPOSE 22067 22070
 
 USER nobody
 
+ENV HOME /app
+
 CMD ["/usr/local/bin/strelaysrv", "-pools=" ]
