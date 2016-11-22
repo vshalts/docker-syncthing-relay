@@ -1,4 +1,4 @@
-FROM vshalts/alpine:latest
+FROM vshalts/alpine:alpine-3.4
 
 # Initially based on work of Kyle Manna <kyle@kylemanna.com>, see kylemanna/syncthing-relay image.
 MAINTAINER Vadim Shalts <vshalts@gmail.com>
