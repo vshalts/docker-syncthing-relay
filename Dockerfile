@@ -5,8 +5,8 @@ MAINTAINER Vadim Shalts <vshalts@gmail.com>
 # Get upstream builds from: https://build.syncthing.net/job/strelaysrv/lastSuccessfulBuild/artifact/ 
 
 ENV NAME strelaysrv
-ENV JOB 292
-ENV VERSION v0.14.12+15-gfc1430a
+ENV JOB 376
+ENV VERSION v0.14.17
 ENV ARCH linux-amd64
 ENV RELEASE ${NAME}-${ARCH}-${VERSION}
 # Busybox wget needs TLS support, curl is less painful to get working 
